@@ -1,0 +1,168 @@
+% !TeX program = lualatex
+% -------------------------------------------------- % 
+% USE XeLaTeX OR LuaLaTeX
+% -------------------------------------------------- % 
+
+\documentclass[letterpaper,11pt]{dolce-cv} % pass 'print' as an option to remove colours from this template for printing
+% pass 'german' as an option to change the date format of the 'last updated' text
+
+% Hyphenation
+\sethyphenation[variant=us]{english}{} % add words between the last {} to avoid them to be cut 
+%\sethyphenation{ngerman}{} % add words between the last {} to avoid them to be cut 
+%\righthyphenmin=4
+%\lefthyphenmin=4
+%\pretolerance=5000
+
+% Symbols
+\usepackage{fontawesome} % for the logos of github, linked in, ect
+\usepackage{academicons}  % for the google scholar logo
+%\usepackage{marvosym} % for the globe symbol (Mundus)
+
+\hypersetup{hidelinks} % hide the URL links (not visible in when printed anyways)
+
+% -------------------------------------------------- % 
+\firstname{Sam} % TODO
+\lastname{Sample} % TODO
+% -------------------------------------------------- % 
+
+% ================================================== % 
+\begin{document}
+% ================================================== % 
+	% The header is defined in the the famura-cv class, and automatically printed at the top of every page
+	
+	% -------------------------------------------------- % 
+	% SIDEBAR
+	% In the aside environment, each new line forces a line break, even at places where you might not expect it
+	% -------------------------------------------------- % 
+	\begin{aside}
+		\section{Contact}
+		%
+		\addresskeyword{email}
+		\href{mailto:sam@sample.net}{sam.sample@
+			rand.net}
+		%
+		\addresskeyword{mobile}
+		+49 123 4567890
+		%
+		\addresskeyword{nationality}
+		German af
+		%
+		\section{Languages}
+		German \fouroffour
+		English \threeoffour
+		Klingon \twooffour
+		French \oneoffour
+		%
+		\section{Programming}
+		C++ \fouroffour
+		or \threeoffour
+		similar \twooffour
+		things \oneoffour
+		\section{Tools \&
+		Frameworks}
+		%
+		PyTorch \fouroffour
+		or \threeoffour
+		similar \twooffour
+		things \oneoffour
+		%
+		\section{Come Up With Your Own}
+		can be free from
+		text here
+		\section{Come Up With \\ Your Own}
+		if applicable, or something else
+		%
+		\section{All Publications \\ (optional)}
+		\href{https://scholar.google.de/citations?user=YOUR-ID}{Google Scholar \aiGoogleScholar}% TODO
+		%
+		\section{Code (optional)}
+		\href{https://github.com/YOUR-ID/}{github \normalsize\faGithub}% TODO
+	\end{aside}
+
+	% -------------------------------------------------- %
+	% ABOUT ME
+	% -------------------------------------------------- %
+	\section{About Me}
+	Some text if you feel like this suites you. Alternatively, you can also leave this out and write a separate cover letter.
+	
+	% -------------------------------------------------- %
+	% EXPERIENCE
+    % -------------------------------------------------- %   
+	\vspace*{\baselineskip}
+	\section{Experience}
+	\begin{entrylist}
+		% -------------------------------------------------- %
+		\entry
+		{01/2345 --\newline 01/2345}
+		{Current Position}
+		{Company or Institue}
+		{Short description of what you have been doing. This can span multiple lines or be merged with the keypoints suggested below.\\
+		Supervisor (optional): \href{URL}{\jobtitle{Prof. Bosmang}}\\
+		Add one or two keypoints here.\\
+		Separated so they are nice to read.}
+		% -------------------------------------------------- %
+		\entry
+		{01/2345 --\newline 01/2345}
+		{Former Position}
+		{Meatgrinder Inc.}
+		{Add one or two keypoints here.\\
+		Separated so they are nice to read.}
+		% -------------------------------------------------- %
+	\end{entrylist}
+	
+	% -------------------------------------------------- %
+	% EDUCATION
+	% -------------------------------------------------- %
+	\section{Education}
+	\begin{entrylist}
+		% -------------------------------------------------- %
+		\entry
+		{01/2345 --\newline 01/2345}
+		{Master of Science {\normalfont in Engineering Even Harder}}
+		{University}
+		{Focus on automatic XYZ. (you can do a line break here)\\
+		Thesis: \papertitle{Title}{}.
+		}
+		% -------------------------------------------------- %
+		\entry
+		{01/2345 --\newline 01/2345}
+		{Bachelor of Science {\normalfont in Engineering of Course}}
+		{Thank you for your student fees}
+		{Focus on automatic XYZ. (you can do a line break here). GPA: 1.0\\
+	     Thesis: \papertitle{De Bello Gallico}{}.
+	     Supervisor (optional): C. Centurio
+        }
+		% -------------------------------------------------- %
+	\end{entrylist}
+
+	% -------------------------------------------------- %
+	% PUBLICATIONS
+	% -------------------------------------------------- %
+	\section{Selected Publications}
+	% -------------------------------------------------- %
+	\paperentry{Authors}{Paper Title}{URL}{Conference}{Year}
+	\paperentry{S. Sample., O.-W. Kenobi, B. Bosmang}{Old wine in new bottles}{URL}{Conference on Bragging About How Smart We Are}{2345}
+	% -------------------------------------------------- %
+
+	% -------------------------------------------------- %
+	% OTHER QUALIFICATIONS
+	% -------------------------------------------------- %
+	\section{Miscellaneous}
+	\begin{entrylist}
+		% -------------------------------------------------- %
+		\entry
+		{01/2345 --\newline 01/2345}
+		{Special Thing You Did}
+		{Place or Company or Institute}
+		{No text in this argument looks weird because of the dates which alawys span two rows.}
+		\entry
+		{}
+		{Driver’s License for Bismarck-Class Battleships}
+		{}
+		{This is most likely completely irrelevant and just here to have an example without a "date" or "institution field".}
+		% -------------------------------------------------- %
+	\end{entrylist}
+
+% ================================================== % 
+\end{document}
+% ================================================== % 
