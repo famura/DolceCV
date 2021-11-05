@@ -1,4 +1,4 @@
-# **Dolce** Curriculum **Vita**e
+# Dolche Curriculum Vitae
 A LaTeX-based, yet nice, template for your curriculum vita based on [Friggeri CV template](https://www.overleaf.com/latex/templates/friggeri-cv-template/hmnchbfmjgqh) which is iteself based on the [Awesome-CV](https://github.com/posquit0/Awesome-CV).
 I added some commands, simplified things, switched the font, changed colors, and adapted the layout.
 So, feel free to modify according to your needs, e.g. add and remove categories.
