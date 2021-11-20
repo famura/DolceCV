@@ -3,7 +3,8 @@ A LaTeX-based, yet nice, template for your curriculum vita based on [Friggeri CV
 I added some commands, simplified things, switched the font, changed colors, and adapted the layout.
 So, feel free to modify according to your needs, e.g. add and remove categories.
 
-Check out the [demo](https://github.com/famura/DolceCV/blob/master/demo.pdf).
+Check out the demo.
+![demo CV](./demo.png)
 
 # Suggestions / Adivces
 - Try to keep it all on one page, especially if you are a bachelor, master or PhD student. Nobody has the time to read everything you want to say. Moreover, if your CV says it all, you are making it less likely that they will ask questions that you can easily answer. 
@@ -12,4 +13,4 @@ Check out the [demo](https://github.com/famura/DolceCV/blob/master/demo.pdf).
 - Don't forget to enter your name and ID for accounts like Google Scholar or GitHub.
 
 # Trivia
-Yes, the color are familiar to you. It's the "tab10" color palette from seaborn 🤓
+Yes, the color are familiar to you. It's the "tab10" color palette from seaborn.
