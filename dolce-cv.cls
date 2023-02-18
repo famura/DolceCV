@@ -234,9 +234,6 @@
 \newcommand{\paperentry}[5]{% #1: authors, #2: title, #3: URL, #4: conference, #5: year
 	#1. \papertitle{#2}{#3}. \textbf{#4}. #5 \\
 }
-\newcommand{\jobtitle}[1]{%
-    {\color{gray}\bodyfontit #1}%
-}
 \newcommand{\person}[2]{%
 	{\color{gray}\href{#2}{\bodyfontit #1}}%
 }
