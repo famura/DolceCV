@@ -9,12 +9,12 @@
 \DeclareOption{german}{\def\@cv@german{}}
 \DeclareOption{print}{\def\@cv@print{}}
 
+% This class is based on the acricle class
 \DeclareOption*{%
-  \PassOptionsToClass{\CurrentOption}{article}% this class is based on the acricle class
+  \PassOptionsToClass{\CurrentOption}{article}%
 }
-
 \ProcessOptions\relax
-\LoadClass{article}% this class is based on the acricle class
+\LoadClass{article}
 
 
 \def\firstname#1{\def\@firstname{#1}}
@@ -237,6 +237,9 @@
 \newcommand{\jobtitle}[1]{%
     {\color{gray}\bodyfontit #1}%
 }
+\newcommand{\person}[2]{%
+	{\color{gray}\href{#2}{\bodyfontit #1}}%
+}
 
 \RequirePackage{enumitem}
 \setitemize{noitemsep, leftmargin=\parindent, labelindent=\parindent}
@@ -342,6 +345,7 @@
 
 % Add meta-information
 %\hypersetup{
+%	hidelinks,
 %	pdftitle=\@firstname \@lastname -- CV,
 %	pdfauthor=\@firstname \@lastname,
 %	pdfsubject=CV%
